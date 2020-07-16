@@ -5,7 +5,6 @@ import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
-import useStyles from "./styles";
 import Logo from "../../images/logo1.png";
 import User from "../../images/user-icon.png";
 import Password from "../../images/password-icon.png";
