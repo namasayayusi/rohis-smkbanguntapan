@@ -1,6 +1,5 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
-import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
 
@@ -12,8 +11,6 @@ import Button from "@material-ui/core/Button";
 import bg from "../../images/background.png";
 
 import { Link } from "react-router-dom";
-import background from "../../images/background.png";
-import IconMasjid from "../../images/background1.png";
 
 export default function Landing() {
   const classes = useStyles();

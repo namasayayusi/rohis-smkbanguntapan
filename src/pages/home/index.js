@@ -1,7 +1,5 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
-import Paper from "@material-ui/core/Paper";
-import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Logo from "../../images/logo1.png";
@@ -12,7 +10,6 @@ import Donasi from "../../images/donasi-icon.png";
 import Video from "../../images/video-icon.png";
 
 import bg from "../../images/background.png";
-import IconMasjid from "../../images/background1.png";
 
 import { Link } from "react-router-dom";
 

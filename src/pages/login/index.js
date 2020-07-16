@@ -2,12 +2,8 @@ import React, { useState } from "react";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import CssBaseline from "@material-ui/core/CssBaseline";
-import InputAdornment from '@material-ui/core/InputAdornment';
-import IconMasjid from "../../images/background1.png";
 
 import useStyles from "./styles";
 import Logo from "../../images/logo1.png";
@@ -18,13 +14,12 @@ import isEmail from "validator/lib/isEmail";
 
 import { auth, useFirebase } from "../../components/FirebaseProvider";
 
-import { Link, Redirect } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 
 
 import bg from "../../images/background.png";
 
 export default function Login() {
-  const classes = useStyles();
 
   const [form, setForm] = useState({
     email: "",

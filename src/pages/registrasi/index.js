@@ -3,8 +3,6 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
-import Paper from "@material-ui/core/Paper";
-import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 
 import useStyles from "./styles";
@@ -18,7 +16,7 @@ import {
   useFirebase
 } from "../../components/FirebaseProvider";
 
-import { Redirect, Link } from "react-router-dom";
+import { Redirect} from "react-router-dom";
 
 import bg from "../../images/background.png";
 import Logo from "../../images/logo1.png";
@@ -28,7 +26,6 @@ import Telp from "../../images/telp-icon.png";
 import Password from "../../images/password-icon.png";
 
 export default function Registrasi() {
-  const classes = useStyles();
 
   const [form, setForm] = useState({
     nama: "",
