@@ -11,7 +11,7 @@ function AppLoading() {
 
   return (
     <Container className={classes.loadingBlock} maxWidth="xs">
-      <div className={classes.loadingBox}>
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
         <Typography variant="h6" component="h2" className={classes.title}>
           Rohis SMK 1 Banguntapan Bantul
         </Typography>
